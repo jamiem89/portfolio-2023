@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.fullheight {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1320px;
+        width: calc(100% - 60px);
+        grid-template-columns: repeat(12, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        gap: 30px;
+    }
+}

@@ -1,0 +1,14 @@
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    width: fit-content;
+}
+
+.link {
+    transition: all .3s ease-in-out;
+}
+
+.link:hover {
+    opacity: .5;
+}

@@ -1,0 +1,21 @@
+.card {
+    margin-bottom: 50px;
+}
+
+.title {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 17px;
+    color: var(--c-white);
+}
+
+.title:after {
+    content: '';
+    position: absolute;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 35px;
+    height: 1px;
+    background-color: var(--c-aqua);
+}
