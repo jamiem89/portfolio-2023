@@ -92,7 +92,7 @@ const Splash = ({setSplashEnd}) => {
             </h1>
 
             <h1 className={styles.title} ref={titleTwoRef}>
-                <span className={styles.wordContainer}><span className={styles.word}>Let's </span></span>
+                <span className={styles.wordContainer}><span className={styles.word}>Let&apos;s </span></span>
                 <span className={styles.wordContainer}><span className={styles.word}>keep </span></span>
                 <span className={styles.wordContainer}><span className={styles.word}>it </span></span>
                 <span className={styles.wordContainer}><span className={`${styles.word} ${styles.alt}`}>simple</span></span>

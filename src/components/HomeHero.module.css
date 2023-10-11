@@ -51,6 +51,10 @@
     font-size: 24px;
 }
 
+.title span {
+    color: var(--c-aqua);
+}
+
 .text {
     color: var(--c-white);
     max-width: 285px;
@@ -67,7 +71,7 @@
     .shapes {
         width: calc(58.333% - 30px);
         max-width: unset;
-        max-height: calc(100vh - 60px);
+        max-height: calc(var(--device-height) - 60px);
     }
 
     .content {

@@ -9,6 +9,8 @@ import styles from './HomeHero.module.css';
 
 const HomeHero = () => { 
 
+    // Animation bits
+
     gsap.registerPlugin(ScrollTrigger);
     const circleRef = useRef();
     const sectionRef = useRef();

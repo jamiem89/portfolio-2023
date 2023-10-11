@@ -73,7 +73,7 @@
         top: 30px;
         display: flex;
         flex-direction: column;
-        height: calc(100vh - 60px);
+        height: calc(var(--device-height) - 60px);
         grid-column: 1 / 6;
     }
 
