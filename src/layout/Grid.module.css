@@ -7,8 +7,8 @@
 }
 
 .fullheight {
-    min-height: 100vh;
-    overflow: hidden;
+    min-height: var(--device-height);
+    transition: min-height .3s ease-in-out;
 }
 
 @media (min-width: 768px) {

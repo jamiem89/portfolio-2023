@@ -15,18 +15,7 @@ export default function Home() {
   const [deviceHeight, setDeviceHeight] = useState(null);
 
   useEffect(() => {
-
     setDeviceHeight(`${window.innerHeight}px`)
-
-    const handleWindowResize = () => {
-      setDeviceHeight(`${window.innerHeight}px`);
-    };
-
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
   });
 
   return (
