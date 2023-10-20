@@ -18,7 +18,7 @@ const StickyNav = () => {
                         <ul className={styles.links}>
                             <li><a href="#about" className={`${'small-caps'} ${styles.trigger}`}>About</a></li>
                             <li><a href="#experience" className={`${'small-caps'} ${styles.trigger}`}>Experience</a></li>
-                            <li><a href="#projects" className={`${'small-caps'} ${styles.trigger}`}>Projects</a></li>
+                            {/* <li><a href="#projects" className={`${'small-caps'} ${styles.trigger}`}>Projects</a></li> */}
                         </ul>
                     </div>
                     <div className={styles.sidebarBottom}>
@@ -28,7 +28,7 @@ const StickyNav = () => {
                 <div className={styles.main}>
                     <About/>
                     <Experience/>
-                    <Projects/>
+                    {/* <Projects/> */}
                 </div>
             </Grid>
         </section>

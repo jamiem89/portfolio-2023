@@ -5,7 +5,7 @@ import styles from './ProjectCard.module.css';
 const ProjectCard = ({imgUrl, title, text, url}) => {
 
     return (
-        <article class={styles.card}>
+        <article className={styles.card}>
             <a href={url} target="_blank">
                 <div className={styles.image}>
                     <Image

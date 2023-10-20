@@ -29,7 +29,7 @@ const Projects = () => {
     ]
 
     return(
-        <section class="section" id="projects">
+        <section className="section" id="projects">
             <Title
                 text="Recent Projects"
                 type="h3"
