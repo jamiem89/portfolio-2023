@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
-
 import Head from 'next/head'
+
+import HomeHero from '../components/HomeHero/HomeHero'
 
 export default function Home() {
 
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Head />
       <main>
+        <HomeHero />
       </main>
     </>
   )

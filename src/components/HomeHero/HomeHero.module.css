@@ -1,0 +1,95 @@
+.section {
+    position: relative;
+    width: 100vw;
+    min-height: 200vh;
+}
+
+.panel {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 33.333%;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.title {
+    position: relative;
+    color: var(--c-white);
+    font-size: 100px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.iconContainer {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    right: -75px;
+    bottom: -80px;
+    overflow: hidden;
+    transform: translate(50%, 50%);
+}
+
+.face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.egg {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.topShape {
+    position: absolute;
+    top: -10%;
+    right: -2%;
+    width: 23%;
+    aspect-ratio: 1;
+}
+
+.topShape svg {
+    height: 100%;
+    width: 100%;
+}
+
+.bottomShape {
+    position: absolute;
+    bottom: -3%;
+    left: -12%;
+    width: 25%;
+    aspect-ratio: 1;
+}
+
+.topShape svg {
+    height: 100%;
+    width: 100%;
+}
